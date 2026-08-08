@@ -3,7 +3,7 @@ import os
 import django
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'setu.settings')
-sys.path.append('a:\\SETU\\backend')
+sys.path.append('/Users/pasu/Desktop/SETU/backend')
 django.setup()
 
 from core.agent.state import init_models
